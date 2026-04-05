@@ -125,7 +125,7 @@ h1 {
 
 .highlight {
     color: var(--primary-color);
-    border-bottom: 2px dashed var(--primary-color);
+    
 }
 
 .subtitle {
