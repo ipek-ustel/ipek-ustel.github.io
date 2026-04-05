@@ -1,9 +1,9 @@
-/* --- Global Stiller & Coquette Paleti --- */
+
 :root {
-    --bg-color: #fffaf0; /* Uçuk krem arka plan */
+    --bg-color: #fff0f5; /* Açık pembe arka plan */
     --text-color: #4a4a4a; /* Koyu gri (yumuşak) */
-    --primary-color: #ffb6c1; /* Hafif pembe (Coquette pembe) */
-    --accent-color: #e6e6fa; /* Lavanta (Aksan) */
+    --primary-color: #ffb6c1; /* Hafif pembe */
+    --accent-color: #e6e6fa; /* Lavanta */
     --heading-font: 'Playfair Display', serif;
     --body-font: 'Montserrat', sans-serif;
 }
@@ -105,7 +105,7 @@ nav a:hover {
     color: var(--primary-color);
 }
 
-/* --- Hero (Giriş) Stilleri --- */
+/* --- Giriş Stilleri --- */
 header {
     height: 100vh;
     display: flex;
@@ -114,7 +114,7 @@ header {
     text-align: center;
     background: linear-gradient(135deg, #fffaf0 0%, #fff 100%);
     padding: 0 20px;
-    margin-top: 80px; /* Navigasyon için */
+    margin-top: 80px; 
 }
 
 h1 {
@@ -240,7 +240,7 @@ h1 {
 .project-card p {
     font-size: 0.95rem;
     color: #666;
-    margin-bottom: auto; /* Push tags/link to bottom */
+    margin-bottom: auto; 
 }
 
 .tags {
@@ -335,7 +335,7 @@ footer {
     margin-left: 5px;
 }
 
-/* --- Responsive Stiller (Mobil Uyumu) --- */
+/* --- Mobil Uyumu --- */
 @media (max-width: 768px) {
     nav {
         padding: 15px 20px;
@@ -371,7 +371,7 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     background-color: #fff;
-    border: 2px dashed var(--primary-color); /* Coquette dashed border */
+    border: 2px dashed var(--primary-color); 
     border-radius: 15px;
     padding: 15px;
     box-shadow: 0 4px 15px rgba(255,182,193,0.3);
