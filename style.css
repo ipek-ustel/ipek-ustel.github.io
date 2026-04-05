@@ -357,4 +357,46 @@ footer {
         grid-template-columns: 1fr;
         gap: 30px;
     }
+
+
+.social-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.social-links {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 2px dashed var(--primary-color); /* Coquette dashed border */
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(255,182,193,0.3);
+    flex-direction: column;
+    gap: 12px;
+    min-width: 160px;
+    z-index: 10;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.social-links a {
+    color: var(--text-color);
+    font-size: 0.95rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+}
+    
 }
